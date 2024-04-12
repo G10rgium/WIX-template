@@ -1,0 +1,391 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    z-index: 999;
+}
+
+#chat {
+    position: fixed;
+    bottom: 0;
+    right: 14px;
+    padding: 15px 40px;
+    color: white;
+    background-color: black;
+    border: 0;
+    font-size: 25px;
+}
+
+.header1 {
+    margin-right: 120px;
+    padding-top: 20px;
+}
+
+#p1 {
+    font-size: 30px;
+}
+
+#p2 {
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.button1 {
+    font-size: 20px;
+    border: 0;
+    background-color: aliceblue;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.button1:hover {
+    color: rgb(97, 153, 139);
+    transition: 0.5s;
+}
+
+.button2 {
+    border: 0;
+    background-color: aliceblue;
+    color: rgb(97, 153, 139);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.button2:hover {
+    color: rgba(97, 153, 139, 0.644);
+    transition: 0.5s;
+}
+
+.fa-circle-user {
+    color: rgb(97, 153, 139);
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.header2 {
+    padding-top: 35px;
+}
+
+section {
+    position: relative;
+    height: 992px;
+    top: 80px;
+}
+
+
+
+.SUCCESS {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    left: 32%;
+}
+
+.Abuttons {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px 30px;
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    z-index: 1;
+    transition: 0.25s;
+}
+
+.Abuttons:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 30px;
+    transition: 0.25s;
+
+}
+
+main {
+    display: flex;
+    background-color: aliceblue;
+}
+
+.main1 {
+    position: relative;
+    top: 50px;
+    left: 500px;
+    margin-right: 600px;
+}
+
+#about_me {
+    margin: 15px 0;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.p3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+aside {
+    position: relative;
+    top: 0;
+    
+}
+
+.aside {
+    position: absolute;
+    left: 25%;
+    top: 40px;
+}
+
+#h1-2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.span {
+    display: flex;
+    gap: 40px;
+}
+
+span {
+    border: 3px solid black;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img1 {
+    width: 100%;
+}
+
+#img2 {
+    width: 50%;
+}
+
+#img3 {
+    width: 100%;
+}
+
+.buttons2 {
+    color: white;
+    background-color: black;
+    border: solid 2px black;
+    padding: 6px 30px;
+    font-size: 16px;
+    transition: 0.25s;
+}
+
+.buttons2:hover {
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+    font-size: 16px;
+    padding: 6px 30px;
+    transition: 0.25s;
+}
+
+.free {
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+    font-size: 16px;
+    padding: 6px 30px;
+    margin-left: 5px;
+    transition: 0.25s;
+}
+
+.free:hover {
+    color: white;
+    background-color: black;
+    border: solid 2px black;
+    padding: 6px 30px;
+    font-size: 16px;
+    margin-right: 5px;
+    transition: 0.25s;
+}
+
+
+.top {
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    border: 0;
+}
+
+#h6 {
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+#h1 {
+    font-size: 150px;
+}
+
+#p4 {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.more {
+    position: absolute;
+    left: 41%;
+    top: 650px;
+    padding: 20px 40px;
+}
+
+.more:hover {
+    padding: 20px 40px;
+}
+
+.span-button {
+    color: white;
+    background-color: black;
+    border: solid 2px black;
+    padding: 6px 20px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.span-button:active{
+    background-color: white;
+    color: black;
+}
+
+.jj {
+    display: flex;
+    justify-content: center;
+
+}
+
+.span-hr {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    border: 0;
+}
+
+.span-h1 {
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+}
+
+.span-p {
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.span-p1 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    background-color: rgb(45, 114, 97);
+    padding: 240px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 25%;
+    top: 50px;
+    gap: 20px;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    gap: 10px;
+    top: 50px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: rgb(45, 114, 97);
+}
+
+input:hover {
+    border: groove;
+}
+
+#last_input {
+    height: 100px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+#a {
+    display: flex;
+    gap: 20px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    color: black;
+}
+
+.text_deco {
+    color: black;
+}
+
+.Submit {
+    width: 150px;
+    position: absolute;
+    top: 350px;
+    left: 300px;
+}
+
+.p5{
+    display: flex;
+    flex-direction: column;
+}
+#p12{
+    margin-bottom: 20px;
+}
+
+.span-p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
